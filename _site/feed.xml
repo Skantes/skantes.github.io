@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-01-20T15:14:48+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">skantes.github.io</title><subtitle>Software Engineer @ Videolabs and VideoLAN</subtitle><entry><title type="html">Introducing VLCBenchmark</title><link href="http://localhost:4000/2021/01/20/introducing-vlcbenchmark.html" rel="alternate" type="text/html" title="Introducing VLCBenchmark" /><published>2021-01-20T00:00:00+01:00</published><updated>2021-01-20T00:00:00+01:00</updated><id>http://localhost:4000/2021/01/20/introducing-vlcbenchmark</id><content type="html" xml:base="http://localhost:4000/2021/01/20/introducing-vlcbenchmark.html">&lt;p class=&quot;image&quot; align=&quot;center&quot;&gt;
+  &lt;img src=&quot;/assets/benchmark-icon.png&quot; style=&quot;height:200px; width:200px;&quot; alt=&quot;&quot; /&gt;
+&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot;color:#777777&quot;&gt;
+    &lt;em&gt;VLCBenchmark logo&lt;/em&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;VLCBenchmark is an open-source benchmark application focused on testing android devices’ video capabilities using the VLC Media Player Android App.&lt;/p&gt;
+
+&lt;p&gt;It will rate Android devices according to their capacity to play videos, and then publish the results on our &lt;a href=&quot;https://bench.videolabs.io&quot;&gt;website&lt;/a&gt;, so that people can consult devices’ scores.&lt;/p&gt;
+
+&lt;h2 id=&quot;why-&quot;&gt;Why ?&lt;/h2&gt;
+
+&lt;p&gt;As of right now, there isn’t any android benchmark application focused on video, with the expertise that &lt;a href=&quot;https://videolan.org&quot;&gt;VideoLAN&lt;/a&gt; can offer.&lt;/p&gt;
+
+&lt;p&gt;This benchmark will help users who wish to watch videos on their mobile to know before a purchase what their future Android device can do.&lt;/p&gt;
+
+&lt;p&gt;Furthermore, it is also to give an incentive for Android manufacturers to work with &lt;a href=&quot;https://videolan.org&quot;&gt;VideoLAN&lt;/a&gt;, and help us improve VLC-Android on their devices.&lt;/p&gt;
+
+&lt;h2 id=&quot;how-does-it-work-&quot;&gt;How does it work ?&lt;/h2&gt;
+
+&lt;p&gt;We host a list of video samples encoded according to many different parameters, such as codec, resolution, fps, and bit depth.
+The app will run each sample using vlc-android in software and hardware decoding, testing playback, and image quality.&lt;/p&gt;
+
+&lt;h3 id=&quot;playback&quot;&gt;Playback&lt;/h3&gt;
+
+&lt;p&gt;This test will look for problems while playing the sample, is it slow, is it stuck, etc.&lt;/p&gt;
+
+&lt;h3 id=&quot;image-quality&quot;&gt;Image quality&lt;/h3&gt;
+
+&lt;p&gt;This test will look for imperfection in the image (artifacts, green lines, etc).&lt;/p&gt;
+
+&lt;h3 id=&quot;speed&quot;&gt;Speed&lt;/h3&gt;
+
+&lt;p&gt;This test will converge on to the maximum playback speed&lt;/p&gt;
+
+&lt;h3 id=&quot;results&quot;&gt;Results&lt;/h3&gt;
+
+&lt;p&gt;These tests are then summed up to rate the Android device.&lt;/p&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+    &lt;img src=&quot;/assets/result-page.png&quot; style=&quot;width:300px;&quot; /&gt;
+&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot;color:#777777&quot;&gt;
+    &lt;em&gt;Result page&lt;/em&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Once finished these results can be uploaded and shared on the main &lt;a href=&quot;https://bench.videolabs.io&quot;&gt;website&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-website&quot;&gt;The website&lt;/h2&gt;
+
+&lt;h2 id=&quot;download-the-app&quot;&gt;Download the app&lt;/h2&gt;
+
+&lt;p&gt;You can find the app on the &lt;a href=&quot;&quot;&gt;Google Store&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
+
+&lt;h2 id=&quot;contacts&quot;&gt;Contacts&lt;/h2&gt;
+
+&lt;p&gt;You can contact us:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;By email at: &lt;a href=&quot;mailto:contact.vlcbenchmark@gmail.com&quot;&gt;contact.vlcbenchmark@gmail.com&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;On twitter at: &lt;a href=&quot;https://twitter.com/TheSkantes&quot;&gt;@TheSkantes&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;You can find the project’s source on the &lt;a href=&quot;https://code.videolan.org/videolan/vlc-bench&quot;&gt;VideoLAN gitlab&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html">VLCBenchmark logo</summary></entry></feed>
