@@ -16,6 +16,8 @@ VLCBenchmark is an open-source benchmark application focused on testing android 
 
 It will rate Android devices according to their capacity to play videos, and then publish the results on our [website](https://bench.videolabs.io), so that people can consult devices' scores.
 
+This app is developped by [Videolabs](https://videolabs.io) a company that was founded by [VideoLAN's](https://videolan.org) president to have full time developpers work on VLC.
+
 
 ## Why ?
 
@@ -24,35 +26,39 @@ It will rate Android devices according to their capacity to play videos, and the
 
 As of right now, there isn't any android benchmark application focused on video, with the expertise that [VideoLAN](https://videolan.org) can offer.
 
-This benchmark will help users who wish to watch videos on their mobile to know before a purchase what their future Android device can do.
+This benchmark is either for professionnals in fields related to smartphones, or regular users that want to thoroughly test their device.
 
-Furthermore, it is also to give an incentive for Android manufacturers to work with [VideoLAN](https://videolan.org), and help us improve VLC-Android on their devices.
+Furthermore, getting hardware decoding to work perfectly on all the different android phones out there with VLC-Android can be quite difficult without specifications from the manufacturer. Having specific results on their devices may provide incentive for Android manufacturers to work with [Videolabs](https://videolabs.io) and [VideoLAN](https://videolan.org), and help us improve VLC on their devices.
 
+<p class="image" align="center">
+  <img src="/assets/main-page.png" style="width:300px;" alt>
+</p>
+<p align="center" style="color:#777777">
+    <em>Main page</em>
+</p>
+<br>
 
 ## How does it work ?
 
-[//]: for technical people -> link to samples / sample specs
+The benchmark will play video samples using the VLC-Android Media Player App, as it a widely used media player on Android.
+It is hence a requirement to install VLC-Android to run the benchmark.
+
 We host a list of video samples encoded according to many different parameters, such as codec, resolution, fps, and bit depth.
-The app will run each sample using vlc-android in software and hardware decoding, testing playback, and image quality.
+The app will run each sample using vlc-android in software and hardware decoding, testing playback, playback speed, and image quality.
 
+You can find the video samples on the [VideoLAN FTP](https://streams.videolan.org/) and the specs [here](https://docs.google.com/spreadsheets/d/1xaD0JO8hr7fWD8PPSC8ALCCfuuhIObs0d-sWqiYMDwY/edit?usp=sharing).
 
-[//]: as there isn't much 
-### Playback
+### Tests
 
-This test will look for problems while playing the sample, is it slow, is it stuck, etc.
+Playback: This test will look for problems while playing the sample, is it slow, is it stuck, etc.
 
-### Image quality
+Image Quality: This test will look for imperfection in the image (artifacts, green lines, etc).
 
-This test will look for imperfection in the image (artifacts, green lines, etc).
-
-### Speed
-
-This test will converge on to the maximum playback speed
+Speed: This test will converge on to the maximum playback speed.
 
 ### Results
 
 These tests are then summed up to rate the Android device.
-
 
 <p align="center">
     <img src="/assets/result-page.png" style="width:300px;"/>
@@ -65,13 +71,38 @@ Once finished these results can be uploaded and shared on the main [website](htt
 
 ## The website
 
+At [bench.videolabs.io](https://bench.videolabs.io) you can find benchmarks uploaded by users.
+
+It will present benchmark results from many models and brands
+
+<p align="center">
+    <img src="/assets/benchmark-site-main.png" style="width:800px;"/>
+</p>
+<p align="center" style="color:#777777">
+    <em>Best results on the main page</em>
+</p>
+
+Users will be able to checkout the benchmarks that they uploaded, with the results from the test, and information about their devices
+
+<p align="center">
+    <img src="/assets/benchmark-site-pixel3-bench.png" style="width:800px;"/>
+</p>
+<p align="center" style="color:#777777">
+    <em>User Benchmark</em>
+</p>
+
+<p align="center">
+    <img src="/assets/benchmark-site-pixel3-infos.png" style="width:800px;"/>
+</p>
+<p align="center" style="color:#777777">
+    <em>Device information</em>
+</p>
+
+It will also be possible to get average results for a specific model.
+
 ## Download the app
 
-You can find the app on the [Google Store]().
-
-[//]: recap why / how + opening to the rest ...
-## Conclusion
-
+You can find the app on the [Play Store]().
 
 
 ## Contacts
