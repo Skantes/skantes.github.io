@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Introducing early access VLCBenchmark"
+image: "/assets/benchmark-icon.png"
 date: 2021-04-02
 ---
 
