@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Introducing VLCBenchmark"
-date: 2021-01-20
+title: "Introducing early access VLCBenchmark"
+date: 2021-04-02
 ---
 
 <p class="image" align="center">
@@ -16,7 +16,8 @@ VLCBenchmark is an open-source benchmark application focused on testing android 
 
 It will rate Android devices according to their capacity to play videos, and then publish the results on our [website](https://bench.videolabs.io), so that people can consult devices' scores.
 
-This app is developped by [Videolabs](https://videolabs.io) a company that was founded by [VideoLAN's](https://videolan.org) president to have full time developpers work on VLC.
+This app is developped and released in early access by [Videolabs](https://videolabs.io) a company that was founded by [VideoLAN's](https://videolan.org) 
+president to have full time developpers work on VLC.
 
 
 ## Why ?
