@@ -1,5 +1,10 @@
 <head>
 
+    {% capture seo %}
+    {% seo %}
+    {% endcapture %}
+
+    {{ seo | replace: "summary_large_image", "summary" }}
     <!-- Twitter cards -->
     <meta name="twitter:site" content="@{{ site.twitter_username }}">
     <meta name="twitter:creator" content="@{{ page.author }}">
@@ -13,6 +18,7 @@
 
     {% if page.image %}
     <meta name="twitter:card" content="summary">
+    <meta property="og:image" content="{{ site.url }}{{ page.image }}">
     <meta name="twitter:image" content="{{ site.url }}{{ page.image }}">
     {% else %}
     <meta name="twitter:card" content="summary">
