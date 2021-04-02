@@ -1,5 +1,6 @@
 <head>
     {% if page.image %}
     <meta content="{{ page.image }}" property="og:image">
+    <meta name="twitter:image:src" content="{{ site.url }}/path/to/image/{{ page.image }}">
     {% endif %}
 </head>
