@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Introducing early access VLCBenchmark"
-image: "/assets/benchmark-icon.png"
+thumbnail: "/assets/benchmark-icon.png"
 date: 2021-04-02
 ---
 
@@ -104,7 +104,7 @@ It will also be possible to get average results for a specific model.
 
 ## Download the app
 
-You can find the app on the [Play Store]().
+You can find the app on the [Play Store](https://play.google.com/store/apps/details?id=org.videolan.vlcbenchmark).
 
 
 ## Contacts
