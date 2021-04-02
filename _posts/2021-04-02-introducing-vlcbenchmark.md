@@ -2,6 +2,7 @@
 layout: post
 title: "Introducing early access VLCBenchmark"
 thumbnail: "/assets/benchmark-icon.png"
+image: "/assets/benchmark-icon.png"
 date: 2021-04-02
 ---
 
@@ -9,7 +10,7 @@ date: 2021-04-02
   <img src="/assets/benchmark-icon.png" style="height:200px; width:200px;" alt>
 </p>
 <p align="center" style="color:#777777">
-    <em>VLCBenchmark logo</em>
+    <em>VLCBenchmark</em>
 </p>
 <br>
 
